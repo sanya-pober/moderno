@@ -10,11 +10,11 @@ $(function() {
         slidesToShow: 4,
         slidesToScroll: 4,
         responsive: [{
-                breakpoint: 1900,
+                breakpoint: 801,
                 settings: {
                     dots: true,
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                 }
             },
             {
@@ -26,13 +26,14 @@ $(function() {
                 }
             },
             {
-                breakpoint: 801,
+                breakpoint: 1900,
                 settings: {
                     dots: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
                 }
             }
+
         ]
     });
     $(".js-range-slider").ionRangeSlider({
